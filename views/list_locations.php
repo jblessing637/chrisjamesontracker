@@ -2,6 +2,7 @@
 <table class="table table-striped">
 <thead>
 <tr>
+<th>Subject</th>
 <th>Date</th>
 <th>Time</th>
 <th>Locations</th>
@@ -22,6 +23,7 @@ foreach($lines as $line) {
 	$time=$parts[1];
 	$location=$parts[2];
 	echo '<tr>';
+	echo "<td>Chris Jameson</td>";
 	echo "<td>$date</td>";
 	echo "<td>$time</td>";
 	echo "<td>$location</td>";

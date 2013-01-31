@@ -17,7 +17,7 @@ if($_POST['date'] != '' && $_POST['time'] != '' && $_POST['location']!=''){
 	//store error message in session data
 	$SESSION['message']=array(
 			'text'=>'Where\'s the stuff, man?',
-			'type'=> 'success'
+			'type'=> 'alert'
 	);
 	//redirect to form
 	header('Location:../?p=form_add_location');
