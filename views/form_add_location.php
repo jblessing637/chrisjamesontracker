@@ -1,5 +1,5 @@
 <h2>Where have you seen him?</h2>
-<form class="form-horizonatal" action="actions/add_band.php" method="post">
+<form class="form-horizonatal" action="actions/add_location.php" method="post">
 	<div class="control-group">
 		<label class="control-label" for="date">Date</label>
 		<div class="controls">
