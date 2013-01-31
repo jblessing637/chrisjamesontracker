@@ -6,7 +6,7 @@ if($_POST['date'] != '' && $_POST['time'] != '' && $_POST['location']!=''){
 	//1 open file for writing
 	$f = fopen('../data/locations.csv','a');
 	//2 write the new bands info to the file
-	fwrite($f, "\n{$_POST['date']}, {$_POST['time']}, {$_POST['location']}");
+	fwrite($f, "\n{$_POST['date']},{$_POST['time']},{$_POST['location']}");
 	//3 close file
 	fclose($f);
 	//redirect to list of bands

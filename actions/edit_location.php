@@ -1,7 +1,7 @@
 <?php 
 session_start();
 //read file into array
-$lines = file('../data/locatins.csv', FILE_IGNORE_NEW_LINES);
+$lines = file('../data/locations.csv', FILE_IGNORE_NEW_LINES);
 //replace line with new values
 $lines[$_POST['linenum']]="{$_POST['date']},{$_POST['time']},{$_POST['location']}";
 //CREATE string to write to the file
