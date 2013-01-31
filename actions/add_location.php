@@ -15,7 +15,7 @@ if($_POST['date'] != '' && $_POST['time'] != '' && $_POST['location']!=''){
 	//store submitted data into session data
 	$_SESSION['POST']=$_POST;
 	//store error message in session data
-	$SESSION['message']=array(
+	$_SESSION['message']=array(
 			'text'=>'Where\'s the stuff, man?',
 			'type'=> 'alert'
 	);

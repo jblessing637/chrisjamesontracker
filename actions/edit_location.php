@@ -11,7 +11,7 @@ $f = fopen('../data/locations.csv','w');
 fwrite($f, $data_string);
 fclose($f);
 //redirect to list of bands
-$SESSION['message']=array(
+$_SESSION['message']=array(
 		'text'=>'Chris\'s Location has been altered forevermore.',
 		'type'=> 'info'
 		);
