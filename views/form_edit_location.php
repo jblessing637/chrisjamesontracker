@@ -29,6 +29,6 @@ $location=explode(',', $lines[$_GET['location']]);
 		<button type="submit" class="btn btn-warning">
 			<i class="icon-edit icon-white"></i> Edit Band
 		</button>
-		<a href="./"><button type="button" class="btn">Cancel</button></a>
+		<button type="button" class="btn" onclick="window.history.go(-1)">Cancel</button>
 	</div>
 </form>

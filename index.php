@@ -7,6 +7,7 @@ require('functions.php');
 <!DOCTYPE html>
 <html>
 	<head>
+		<link rel="icon" type="image/png" href="http://placehold.it/16x16/1BE03F" />
 		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="stylin.css">
 		<title>Chris Tracker</title>

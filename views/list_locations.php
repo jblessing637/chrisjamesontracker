@@ -27,7 +27,7 @@ foreach($lines as $line) {
 	echo "<td>$date</td>";
 	echo "<td>$time</td>";
 	echo "<td>$location</td>";
-	echo "<td><a href=\"./?p=form_edit_location&location=$i\" class=\"btn btn-warning\"><i class=\"icon-wrench icon-white\"></a></td><td><a href=\"actions/delete_location.php?linenum=$i\" class=\"btn btn-danger\"><i class=\"icon-trash icon-white\"></a></td>";
+	echo "<td><a href=\"./?p=form_edit_location&location=$i\" class=\"btn btn-warning\"><i class=\"icon-wrench icon-white\"></a></td><td><a href=\"actions/delete_location.php?linenum=$i\" onclick=\"return confirm('Are you sure that he was never there?')\" class=\"btn btn-danger\" ><i class=\"icon-trash icon-white\"></a></td>";
 	echo'</tr>';
 	$i++; //increment line number
 }

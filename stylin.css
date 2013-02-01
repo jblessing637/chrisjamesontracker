@@ -1,0 +1,11 @@
+body {
+	background:url("pictures/chris.jpg");
+	color:#FF00CC;
+	font-size:16pt;
+}
+section {
+	color:#2200FF;
+	background-color:#32753F;
+	padding:10px;
+	border-radius:10px;
+}
