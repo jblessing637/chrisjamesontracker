@@ -1,6 +1,7 @@
 <?php 
 session_start();
 //read file into array
+if($_POST['date'] != '' && $_POST['time'] != '' && $_POST['location']!=''){
 $lines = file('../data/locations.csv', FILE_IGNORE_NEW_LINES);
 //replace line with new values
 $lines[$_POST['linenum']]="{$_POST['date']},{$_POST['time']},{$_POST['location']}";
@@ -16,4 +17,16 @@ $_SESSION['message']=array(
 		'type'=> 'info'
 		);
 header('Location:../?p=list_locations');
+}
+else {
+	//store submitted data into session data
+	$_SESSION['POST']=$_POST;
+	//store error message in session data
+	$_SESSION['message']=array(
+			'text'=>'Where\'s the stuff, man?',
+			'type'=> 'alert'
+	);
+	//redirect to form
+	header('Location:../?p=list_locations');
+}
 ?>
