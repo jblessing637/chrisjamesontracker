@@ -1,6 +1,5 @@
 body {
 	background:url("pictures/chris.jpg");
-	font-size:16pt;
 }
 
 section {
@@ -9,7 +8,12 @@ section {
 	padding:10px;
 	border-radius:10px;
 }
-
+.table {
+	margin-bottom:0px;
+	font-weight:bold;
+}
 footer {
 	color:#FF00CC;
+	font-weight:bold;
+	font-size:20px;
 }
