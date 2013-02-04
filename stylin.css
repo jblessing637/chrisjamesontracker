@@ -1,6 +1,5 @@
 body {
 	background:url("pictures/chris.jpg");
-	color:#FF00CC;
 	font-size:16pt;
 }
 section {
@@ -8,4 +7,7 @@ section {
 	background-color:#32753F;
 	padding:10px;
 	border-radius:10px;
+}
+footer {
+	color:#FF00CC;
 }
