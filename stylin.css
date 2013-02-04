@@ -2,12 +2,14 @@ body {
 	background:url("pictures/chris.jpg");
 	font-size:16pt;
 }
+
 section {
 	color:#2200FF;
 	background-color:#32753F;
 	padding:10px;
 	border-radius:10px;
 }
+
 footer {
 	color:#FF00CC;
 }
