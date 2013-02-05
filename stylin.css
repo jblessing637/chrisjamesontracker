@@ -1,10 +1,12 @@
 body {
 	background:url("pictures/chris.jpg");
+	background-size:1700px 1700px;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
 }
-
 section {
-	color:#2200FF;
-	background-color:#32753F;
+	color:#37FF00;
+	border:2px solid #31781E;
 	padding:10px;
 	border-radius:10px;
 }
@@ -13,7 +15,12 @@ section {
 	font-weight:bold;
 }
 footer {
-	color:#FF00CC;
+	margin-top:10px;
+	color:#37FF00;
 	font-weight:bold;
 	font-size:20px;
+}
+.form-actions {
+	background-color:transparent;
+	border:none;
 }

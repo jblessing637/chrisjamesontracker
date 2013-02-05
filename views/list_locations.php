@@ -1,5 +1,5 @@
 <h2>Chris Jameson's Locations</h2>
-<table class="table table-striped">
+<table class="table">
 <thead>
 <tr>
 <th>Subject</th>
