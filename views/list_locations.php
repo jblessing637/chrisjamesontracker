@@ -1,4 +1,8 @@
 <h2>Chris Jameson's Locations</h2>
+<blockquote>
+  <p>Chris am the best.</p>
+  <small>God (A.K.A. Christopher Jameson)</small>
+</blockquote>
 <table class="table">
 <thead>
 <tr>

@@ -1,5 +1,5 @@
 body {
-	background:url("pictures/chris.jpg");
+	background:url("pictures/chrisgreenscreen.png");
 	background-size:1700px 1700px;
 	background-repeat:no-repeat;
 	background-attachment:fixed;
@@ -9,12 +9,15 @@ section {
 	border:2px solid #31781E;
 	padding:10px;
 	border-radius:10px;
+	background-color:#103B04;
+	opacity:0.7;
 }
 .table {
 	margin-bottom:0px;
 	font-weight:bold;
 }
 footer {
+	text-align:center;
 	margin-top:10px;
 	color:#37FF00;
 	font-weight:bold;
